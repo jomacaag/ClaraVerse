@@ -1087,7 +1087,7 @@ class LlamacppUpdateService {
           platform: 'linux',
           arch: 'x64',
           platformDir: 'linux-x64',
-          assetPattern: 'llama-.*-bin-ubuntu-vulkan-x64.zip'
+          assetPattern: 'llama-.*-bin-ubuntu-vulkan-x64.tar.gz'
         };
       case 'win32':
         return {
